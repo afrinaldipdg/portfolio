@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Afrinaldi</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-areas: 
+        "header header"
+        "left right";
+      max-width: 1000px;
+      margin: 0 auto;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .header {
+      grid-area: header;
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      background-color: #585a5c;
+      color: white;
+    }
+    .header img {
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      margin-right: 30px;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 36px;
+      letter-spacing: 1px;
+    }
+    .header h2 {
+      margin: 5px 0 0;
+      font-size: 16px;
+      font-weight: normal;
+    }
+    .left-side {
+      grid-area: left;
+      padding: 30px;
+      background-color: #eeeeee;
+    }
+    .right-side {
+      grid-area: right;
+      padding: 30px;
+    }
+    h3 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 5px;
+    }
+    .contact-info {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .contact-info li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+    .contact-info li i {
+      margin-right: 10px;
+      font-size: 18px;
+    }
+    .contact-info a {
+      color: #333;
+      text-decoration: none !important;
+      transition: color 0.3s ease;
+    }
+    .contact-info a:hover {
+      color: #0073b1;
+    }
+    .btn-download {
+      background-color: #2563eb;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+    .btn-download:hover {
+      background-color: #1e40af;
+    }
+    @media screen and (max-width: 768px) {
+      .container {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          "header"
+          "left"
+          "right";
+      }
+      .header {
+        flex-direction: column;
+        text-align: center;
+      }
+      .header img {
+        margin: 0 0 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="cv" class="container">
+    <div class="header">
+      <img src="profile.jpg" alt="Afrinaldi">
+      <div>
+        <h1>AFRINALDI</h1>
+        <h2>IT SUPPORT & DEVOPS ENGINEER</h2>
+		<h3>"Helping teams ship faster and more reliably with DevOps and solid IT infrastructure"</h3>
+      </div>
+    </div>
+
+    <div class="left-side">
+      <h3>Personal Information</h3>
+      <p><strong>Full Name:</strong> Afrinaldi</p>
+      <p><strong>Place, Date of Birth:</strong> Padang, April 8, 1983</p>
+      <p><strong>Gender:</strong> Male</p>
+      <p><strong>Religion:</strong> Islam</p>
+      <p><strong>Education:</strong> Vocational High School</p>
+      <p><strong>Address:</strong> Jln. Cangkeh Nan XX no. 21b, Lubuk Begalung, Padang</p><br>
+
+      <h3>Contact</h3>
+      <ul class="contact-info">
+        <li><i class="fab fa-whatsapp"></i><a href="https://wa.me/6281374212002" target="_blank"> WhatsApp</a></li>
+        <li><i class="fas fa-phone"></i><a href="tel:+6281374212002">+62 813-7421-2002</a></li>
+        <li><i class="fas fa-envelope"></i><a href="mailto:afrinaldipdg@gmail.com">afrinaldipdg@gmail.com</a></li>
+        <li><i class="fas fa-map-marker-alt"></i> Jln. Cangkeh Nan XX 21b, Lubuk Begalung, Padang</li>
+        <li><i class="fab fa-linkedin" style="color: #0A66C2;"></i><a href="https://linkedin.com/in/afrinaldi1983" target="_blank">linkedin.com/in/afrinaldi1983</a></li>
+        <li><i class="fab fa-github" style="color: #000;"></i><a href="https://github.com/afrinaldipdg" target="_blank">github.com/afrinaldipdg</a></li>
+      </ul>
+		<h3>Major Skills</h3>
+      <ul>
+        <li>DevOps Tools: Git, GitHub Actions, Docker, Jenkins, Ansible</li>
+        <li>Cloud Platform: Google Cloud Platform (GCP), Firebase</li>
+        <li>Monitoring & Server: Grafana, Prometheus, Nginx, Linux (Ubuntu, Debian)</li>
+        <li>Programming Languages: Bash, Basic Python</li>
+        <li>Soft Skills: Problem Solving, Team Collaboration, Time Management</li>
+      </ul>
+	  
+	  
+      
+
+    </div>
+
+    <div class="right-side">
+      <h3>Experience</h3>
+      <h4>IT Support | Technician | Quality Control | Laboratory Analyst</h4>
+        <p><em>PT Teluk Luas</em> - 2007 - Present</p>
+        <ul> 
+          <li>Responsible for quality control and laboratory analysis.</li>
+          <li>Developed efficient processes for product testing.</li>
+        
+	  <li>Handle network & system troubleshooting in the work environment</li>
+	  <li>Installation of OS, applications, and configuration of IT devices</li>
+	  <li>Support smooth operation of internal IT systems</li>
+        </ul>
+
+      <h3>Project Related to DevOps</h3>
+      <p><strong>CI/CD Pipeline with GitHub Actions & Docker</strong><br>
+      - Making pipeline automation build & deployment<br>
+      - Deploy image to Docker Hub, and deploy container in VM GCP</p>
+
+      <p><strong>Monitoring Server with Grafana & Prometheus</strong><br>
+      - Instalation Prometheus with Grafana on server<br>
+      - Visualitation performance resource server in real-time</p>
+
+      <p><strong>Website CV & Portofolio (afrinaldipdg.github.io)</strong><br>
+      - Deploy GitHub Pages to showcase profiles and project links<br>
+      - Clean & Responsive Design</p>
+
+      <h3>Licenses and Certifications</h3>
+      <ul>
+	<li><p>Google IT Support Specialization
+          <a href="https://www.coursera.org/account/accomplishments/specialization/8VK66MIYYA35" target="_blank" class="tooltip">
+            (View Certificate)
+          </a>
+        </p></li>
+        <li><p>Dicoding - DevOps Expert</p></li>
+            <ul>
+		<li><p>Belajar Dasar-Dasar DevOps
+               <a href="https://www.dicoding.com/certificates/0LZ0939R3Z65"target="_blank" class="tooltip">
+            (View Certificate)</a>
+                   </p>
+	       </li>
+		<li><p>Belajar Jaringan Komputer untuk Pemula
+               <a href="https://www.dicoding.com/certificates/1OP80D8Q2XQK"target="_blank" class="tooltip">
+            (View Certificate)</a>
+	           </p>
+		</li>
+	   
+		<li><p>Menjadi Linux System Administrator
+               <a href="https://www.dicoding.com/certificates/98XWG7Q79PM3"target="_blank" class="tooltip">
+            (View Certificate)</a>
+	           </p></li>
+		<li><p>Belajar Implementasi CI/CD
+               <a href="https://www.dicoding.com/certificates/72ZD865EJZYW"target="_blank" class="tooltip">
+            (View Certificate)</a>
+	           </p></li>
+		<li><p>Belajar Membangun Arsitektur Microservices
+               <a href="https://www.dicoding.com/certificates/N9ZO5V4W6PG5"target="_blank" class="tooltip">
+            (View Certificate)</a>
+	           </p></li>
+	    </ul>
+        <li>Dicoding - Cloud Practitioner, Python Pemula, Dasar Git</li>
+	   <ul>
+	      <li><p>Google Cloud Computing Foundations 
+          <a href="https://www.credly.com/badges/8f2296ed-c90a-4026-96a5-712e4d23fbd9" target="_blank" class="tooltip">
+            (View Certificate)
+          </a>
+        </p>
+	</li>
+	<li><p>Google Cloud Cybersecurity
+          <a href="https://www.credly.com/badges/9ebd9162-4941-4c69-94da-d61e5a4cffe2" target="_blank" class="tooltip">
+            (View Certificate)
+          </a>
+        </p></li>
+	<li><p>Google Cloud Data Analytic
+          <a href="https://www.credly.com/badges/476d0932-7afe-4366-9f60-6052872d975d" target="_blank" class="tooltip">
+            (View Certificate)
+          </a>
+        </p></li>
+	<li><p>Belajar Dasar Google Cloud
+          <a href="https://www.dicoding.com/certificates/GRX5O1GGVP0M" target="_blank" class="tooltip">
+            (View Certificate)
+          </a>
+        </p></li>
+	<li><p>Belajar Dasar Cloud dan Gen AI di AWS
+          <a href="https://www.dicoding.com/certificates/4EXGKDV1QZRL" target="_blank" class="tooltip">
+            (View Certificate)
+          </a>
+        </p></li>
+	<li><p>Memulai Pemrograman dengan Python
+          <a href="https://www.dicoding.com/certificates/NVP778MWVPR0" target="_blank" class="tooltip">
+            (View Certificate)
+          </a>
+        </p></li>
+	</ul>
+      </ul>
+	  <button onclick="downloadPDF()" class="btn-download">Download CV as PDF</button>
+    </div>
+  </div>
+<script>
+    function downloadPDF() {
+      const element = document.getElementById("cv");
+      const opt = {
+        margin: 0.5,
+        filename: 'afrinaldi-cv.pdf',
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2 },
+        jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+      };
+      html2pdf().set(opt).from(element).save();
+    }
+  </script>
+  </div>
+</body>
+</html>
