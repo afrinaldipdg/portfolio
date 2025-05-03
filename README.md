@@ -21,6 +21,11 @@ Ini adalah repositori resmi untuk portofolio pribadi saya — dibangun dengan HT
 - Font Awesome (untuk ikon)
 - GitHub Pages
 
+statistik GitHub di profil
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=afrinaldipdg&show_icons=true&theme=radical)
+
+
 ## 🧰 Struktur File
 ```bash
 .
