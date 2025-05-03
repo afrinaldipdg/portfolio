@@ -55,7 +55,7 @@ Edit
 https://<username>.github.io
 📷 Preview
 
-![Preview Portofolio](ssweb.jpg)
+![Preview](https://github.com/afrinaldipdg/portfolio/blob/main/ssweb.jpg?raw=true)
 
 📬 Kontak
 Jika ada pertanyaan, silakan hubungi saya:
