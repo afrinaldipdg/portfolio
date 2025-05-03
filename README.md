@@ -55,7 +55,7 @@ Edit
 https://<username>.github.io
 📷 Preview
 
-🔎 Catatan: Ganti gambar di atas dengan screenshot portofolio kamu agar tampil menarik di halaman repo.
+<img src="ssweb.jpg" alt="Preview Portofolio" width="800">
 
 📬 Kontak
 Jika ada pertanyaan, silakan hubungi saya:
