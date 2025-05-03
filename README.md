@@ -55,7 +55,7 @@ Edit
 https://<username>.github.io
 📷 Preview
 
-<img src="ssweb.jpg" alt="Preview Portofolio" width="800">
+![Preview Portofolio](ssweb.jpg)
 
 📬 Kontak
 Jika ada pertanyaan, silakan hubungi saya:
