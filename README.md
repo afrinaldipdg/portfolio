@@ -26,6 +26,10 @@ statistik GitHub di profil
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=afrinaldipdg&show_icons=true&theme=radical)
 
 
+📷 Preview
+
+![Preview](https://github.com/afrinaldipdg/portfolio/blob/main/ssweb.jpg?raw=true)
+
 ## 🧰 Struktur File
 ```bash
 .
@@ -58,9 +62,7 @@ cpp
 Salin
 Edit
 https://<username>.github.io
-📷 Preview
 
-![Preview](https://github.com/afrinaldipdg/portfolio/blob/main/ssweb.jpg?raw=true)
 
 📬 Kontak
 Jika ada pertanyaan, silakan hubungi saya:
