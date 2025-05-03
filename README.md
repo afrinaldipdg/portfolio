@@ -65,21 +65,3 @@ Jika ada pertanyaan, silakan hubungi saya:
 💼 LinkedIn: linkedin.com/in/afrinaldi1983
 
 🧑‍💻 GitHub: @afrinaldipdg
-
-⚖️ Lisensi
-Proyek ini menggunakan lisensi MIT, bebas digunakan untuk personal atau profesional dengan atribusi yang sesuai.
-
-yaml
-Salin
-Edit
-
----
-
-Kalau kamu ingin gue bantu buat preview image (`preview.png`) dari halaman portofolio kamu secara otomatis, tinggal bilang aja — gue bisa bantu buatkan juga.
-
-
-
-
-
-
-
